@@ -2,14 +2,13 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import "react-toastify/dist/ReactToastify.css";
-
 import { ToastContainer } from "react-toastify";
 import Products from "./pages/Products";
 import Categories from "./pages/Categories";
 import About from "./pages/About";
 import Cart from "./pages/Cart";
 import ProductPage from "./pages/ProductPage";
-import { MainContext, MainProvider } from "./context/MainContext";
+import { MainProvider } from "./context/MainContext";
 import Login from "./pages/Login";
 import PrivateRoute from "./middleware/PrivateRoute";
 import AddProduct from "./pages/AddProduct";

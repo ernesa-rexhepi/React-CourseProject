@@ -1,0 +1,81 @@
+.filtersWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.filtersWrapper h3 {
+  margin: 0;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.productsWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.form {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form input {
+  margin: 20px 0 0 0;
+  outline: none;
+}
+.form textarea {
+  margin-top: 20px;
+  resize: none;
+  height: 100px;
+}
+
+.form button {
+  margin-top: 20px;
+}
+
+.ProductsSliderPic {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.ProductsSlider {
+  width: 400px;
+}
+.productPage {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 950px;
+  background-color: rgb(213, 212, 212);
+  height: 500px;
+  margin: 35px auto;
+}
+.ProductDescription {
+  margin-left: 40px;
+}
+.Buttons {
+  padding: 10px 50px;
+  margin-left: 5px;
+}
+.startButton {
+  background-color: rgb(96, 96, 210);
+  padding: 10px 188px;
+  margin: 20px 0px;
+  border-radius: 7px;
+  text-align: center;
+}
+.Buttons:hover {
+  background-color: red;
+  color: white;
+}
+.startButton:hover {
+  background-color: red;
+  color: white;
+}
